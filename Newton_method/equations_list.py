@@ -1,0 +1,35 @@
+import math
+
+equations = [
+    lambda x: 0.25 * x - math.sin(x) + 1,
+    lambda x: math.sin(x) - 1/x, 
+    lambda x: math.log(x) - math.sin(x),
+    lambda x: 4*x - math.cosh(x),
+    lambda x: x*x - 1/math.cosh(x),
+    lambda x: x - math.exp(-x),
+    lambda x: 0.2*x - math.sin(x),
+    lambda x: math.sin(x) - 2/x,
+    lambda x: 2*math.log(x) - math.sin(x),
+    lambda x: 3*x - math.cosh(x),
+    lambda x: x*x - 2/math.cosh(x),
+    lambda x: x - math.exp(-2*x),
+    lambda x: 0.1*x - math.sin(x),
+    lambda x: math.sin(x) - 0.5/x,
+    lambda x: 0.5*math.log(x) - math.sin(x),
+    lambda x: x**4 + 8*x**3 + 2*x*x + 3*x + 1,
+    lambda x: x**4 + 2*x**3 + 7*x*x + 2*x + 7,
+    lambda x: x**5 + 3*x**4 + 6*x*x + 3*x + 1,
+    lambda x: x**7 + 3*x**3 + 2*x + 1,
+    lambda x: x**6 + 2*x**4 + 3*x*x + 5,
+    lambda x: x**4 + 3*x**3 + 2*x*x + 5*x,
+    lambda x: x**4 - 9*x**3 + 15*x*x + 11*x - 126,
+    lambda x: x**4 - 5*x**3 + x*x + 49*x + 78,
+    lambda x: x**5 - 4*x**4 - 4*x**3 + 50*x*x - 29*x - 78,
+    lambda x: x**5 + x**4 - 2*x*x + 8*x - 16,
+    lambda x: x**6 + 4*x**5 + 3*x**4 - 2*x**3 + 2*x*x + 8*x - 48,
+    lambda x: x**5 + 9*x**4 + 27*x**3 + 90*x*x + 125*x + 125,
+    lambda x: x**4 + 8*x**3 + 2*x*x + 3*x + 1,
+    lambda x: x**3 + 7*x*x + 15*x + 25,
+    lambda x: x**3 + 3*x*x + 4*x - 8
+]
+
