@@ -1,6 +1,6 @@
 ---
 
-## Here is the output for every function in the 1-2 task
+## Here is the output for every function in the 1-2 task (100 iterations)
 
 ```
 lambda x: 0.25 * x - math.sin(x) + 1, = 0 solution: x = -7.217882748069819

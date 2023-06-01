@@ -1,6 +1,6 @@
 ---
 
-## Output (initial points in the beginning)
+## Output (initial points in the beginning, 10000 iterations)
 
 
 ```

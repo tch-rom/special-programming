@@ -1,6 +1,6 @@
 ---
 
-## Here is the output:
+## Here is the output (1000 iterations):
 
 ```
 Minimum of the objective function: x = 2.429262290328608, y = 0.31714491571809866

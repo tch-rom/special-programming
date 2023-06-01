@@ -10,7 +10,7 @@ def gradient(x, y):
 
 def minimize_rosenbrock(x, y, tolerance):
     alpha = 0.0001  # Learning rate
-    max_iterations = 10000
+    max_iterations = 100
     iteration = 0
     grad_norm = float('inf')
 

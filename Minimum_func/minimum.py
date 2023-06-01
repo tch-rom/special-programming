@@ -4,7 +4,7 @@ from objective_functions import functions
 
 def minimize_function(func, x, y, tolerance):
     alpha = 0.001  # Learning rate
-    max_iterations = 1000
+#    max_iterations = 1000
     iteration = 0
     grad_norm = float('inf')
     df_dx = grad(func, argnum=0)
@@ -23,7 +23,7 @@ def minimize_function(func, x, y, tolerance):
     return x, y
 
 # Define max of iterations 
-max_iterations = 50
+max_iterations = 1000
 
 # Initial point
 x_initial = 0.1
